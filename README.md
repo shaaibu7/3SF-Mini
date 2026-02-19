@@ -112,14 +112,6 @@ The fork choice algorithm:
 3. Repeatedly selects the child with the most votes
 4. Tiebreaks by slot number, then hash lexicographically
 
-## Testing
-
-The implementation includes comprehensive unit tests and property-based tests (optional):
-
-```bash
-cargo test
-```
-
 ## References
 
 - [3SF-mini Python Reference Implementation](https://github.com/ethereum/research/tree/master/3sf-mini)
